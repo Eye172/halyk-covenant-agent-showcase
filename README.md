@@ -39,7 +39,15 @@ Waivers and applicability exceptions are represented explicitly, keeping the mea
 
 ## The Command Center is an inspection surface
 
+![The Command Center explains the document inventory, revision resolver, structured plan, Decimal engine and counterfactual evidence check.](halyk-architecture.png)
+
+*The Command Center explains the document inventory, revision resolver, structured plan, Decimal engine and counterfactual evidence check.*
+
 The local web panel organizes overview, run configuration, results and project documents. It can display preflight findings, a decision matrix, calculated values and the trace behind a selected result. A submission hash connects the displayed quality checks to a particular output file.
+
+![Run configuration distinguishes Auto, Public and Private/LLM modes. The panel is idle, with no customer material loaded or model run started.](halyk-configuration.png)
+
+*Run configuration distinguishes Auto, Public and Private/LLM modes. The panel is idle, with no customer material loaded or model run started.*
 
 | Check | What it prevents |
 |---|---|
